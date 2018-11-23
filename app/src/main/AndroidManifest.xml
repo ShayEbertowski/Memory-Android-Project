@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.games.ng8542gd.memory">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Menus.MainActivity">
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>\
+
+        <!-- Menus //////////////////////////////////////////////////////////////////////////////-->
+        <activity android:name=".Menus.CardsMenu"></activity>
+        <activity android:name=".Menus.GridMenu"></activity>
+        <activity android:name=".Menus.MainOptions"></activity>
+
+
+        <!-- SubMenus ///////////////////////////////////////////////////////////////////////////-->
+        <activity android:name=".DifficultyMenus.CardsDifficultyMenu"></activity>
+        <activity android:name=".DifficultyMenus.GridDifficultyMenu"></activity>
+
+
+        <!-- Controllers /////////////////////////////////////////////////////////////////////// -->
+        <activity android:name=".Controllers.CardPairsController"></activity>
+        <activity android:name=".Controllers.CardTriosController"></activity>
+        <activity android:name=".Controllers.SequenceController"></activity>
+        <activity android:name=".Controllers.NonSequenceController"></activity>
+
+    </application>
+
+</manifest>

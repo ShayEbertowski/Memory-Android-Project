@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff4081"
+    tools:context="com.games.ng8542gd.memory.Depricated.MemoryCardPairsController"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <GridLayout
+        android:id="@+id/easy_grid_trios"
+        android:layout_width="301dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:columnCount="3"
+        android:rowCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shuffle_button"
+        app:layout_constraintVertical_bias="0.64"
+        tools:columnCount="3">
+
+        <ImageView
+            android:id="@+id/card1A"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="8dp"
+            android:tag="card6"
+            app:srcCompat="@drawable/blank_card"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="70dp" />
+
+        <ImageView
+            android:id="@+id/card1B"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="8dp"
+            android:tag="card6"
+            app:srcCompat="@drawable/blank_card"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="70dp" />
+
+        <ImageView
+            android:id="@+id/card1C"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="8dp"
+            android:tag="card6"
+            app:srcCompat="@drawable/blank_card"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="70dp" />
+
+        <ImageView
+            android:id="@+id/card2A"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/blank_card" />
+
+        <ImageView
+            android:id="@+id/card2B"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="8dp"
+            android:tag="card2"
+            app:srcCompat="@drawable/blank_card" />
+
+        <ImageView
+            android:id="@+id/card2C"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="8dp"
+            android:tag="card3"
+            app:srcCompat="@drawable/blank_card" />
+
+        <ImageView
+            android:id="@+id/card3A"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="8dp"
+            android:tag="card4"
+            app:srcCompat="@drawable/blank_card" />
+
+        <ImageView
+            android:id="@+id/card3B"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="8dp"
+            android:tag="card5"
+            app:srcCompat="@drawable/blank_card" />
+
+        <ImageView
+            android:id="@+id/card3C"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="8dp"
+            android:tag="card6"
+            app:srcCompat="@drawable/blank_card"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="70dp" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:text="Matching Cards"
+        android:textAlignment="center"
+        android:textColor="#fefefe"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/shuffle_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:background="#FAFAFA"
+        android:text="Shuffle"
+        android:textColor="#283593"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_text_view" />
+</android.support.constraint.ConstraintLayout>

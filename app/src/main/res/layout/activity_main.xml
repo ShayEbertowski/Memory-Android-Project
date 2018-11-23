@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    tools:context="com.games.ng8542gd.memory.Menus.CardsMenu"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/cards_menu_button"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="211dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#ff4081"
+        android:text="Memory Cards"
+        android:textColor="#fefefe"
+        app:layout_constraintBottom_toTopOf="@+id/grid_menu_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.826"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/grid_menu_button"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="211dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="248dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#ff4081"
+        android:elevation="0dp"
+        android:text="Memory Grid"
+        android:textColor="#fefefe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/main_options_button"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="211dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="152dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#303f9f"
+        android:elevation="0dp"
+        android:text="Options"
+        android:textColor="#fefefe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</android.support.constraint.ConstraintLayout>

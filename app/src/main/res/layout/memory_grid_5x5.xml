@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E91E63"
+    tools:context="com.games.ng8542gd.memory.Depricated.MemoryCardPairsController"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:text="Memory Grid"
+        android:textAlignment="center"
+        android:textColor="#fefefe"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/go_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="32dp"
+        android:background="#FAFAFA"
+        android:text="Go!"
+        android:textColor="#283593"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_text_view" />
+
+    <GridLayout
+        android:id="@+id/hard_memory_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:columnCount="5"
+        android:rowCount="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/go_button"
+        app:layout_constraintVertical_bias="0.421"
+        tools:columnCount="5">
+
+        <ImageView
+            android:id="@+id/square1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square39"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square38"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square37"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square36"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square35"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square34"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square33"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square32"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square31"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square30"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square29"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square28"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square27"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square26"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square25"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square24"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square23"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square22"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square21"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square20"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square19"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square18"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square17"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageView
+            android:id="@+id/square"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:tag="card1"
+            app:srcCompat="@drawable/white_square" />
+
+    </GridLayout>
+</android.support.constraint.ConstraintLayout>
